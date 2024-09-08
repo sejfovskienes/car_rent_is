@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace CarRentApp.Repository
+namespace CarRentApp.Web.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
