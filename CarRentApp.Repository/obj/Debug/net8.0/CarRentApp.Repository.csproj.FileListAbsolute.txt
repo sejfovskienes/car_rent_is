@@ -1,0 +1,16 @@
+D:\car_rent_is\CarRentApp.Repository\bin\Debug\net8.0\CarRentApp.Repository.deps.json
+D:\car_rent_is\CarRentApp.Repository\bin\Debug\net8.0\CarRentApp.Repository.dll
+D:\car_rent_is\CarRentApp.Repository\bin\Debug\net8.0\CarRentApp.Repository.pdb
+D:\car_rent_is\CarRentApp.Repository\obj\Debug\net8.0\CarRentApp.Repository.csproj.AssemblyReference.cache
+D:\car_rent_is\CarRentApp.Repository\obj\Debug\net8.0\CarRentApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\car_rent_is\CarRentApp.Repository\obj\Debug\net8.0\CarRentApp.Repository.AssemblyInfoInputs.cache
+D:\car_rent_is\CarRentApp.Repository\obj\Debug\net8.0\CarRentApp.Repository.AssemblyInfo.cs
+D:\car_rent_is\CarRentApp.Repository\obj\Debug\net8.0\CarRentApp.Repository.csproj.CoreCompileInputs.cache
+D:\car_rent_is\CarRentApp.Repository\obj\Debug\net8.0\CarRentApp.Repository.sourcelink.json
+D:\car_rent_is\CarRentApp.Repository\obj\Debug\net8.0\CarRentApp.Repository.dll
+D:\car_rent_is\CarRentApp.Repository\obj\Debug\net8.0\refint\CarRentApp.Repository.dll
+D:\car_rent_is\CarRentApp.Repository\obj\Debug\net8.0\CarRentApp.Repository.pdb
+D:\car_rent_is\CarRentApp.Repository\obj\Debug\net8.0\ref\CarRentApp.Repository.dll
+D:\car_rent_is\CarRentApp.Repository\bin\Debug\net8.0\CarRentApp.Domain.dll
+D:\car_rent_is\CarRentApp.Repository\bin\Debug\net8.0\CarRentApp.Domain.pdb
+D:\car_rent_is\CarRentApp.Repository\obj\Debug\net8.0\CarRentA.B2364B79.Up2Date

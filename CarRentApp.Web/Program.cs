@@ -1,4 +1,5 @@
-using CarRentApp.Web.Data;
+//using CarRentApp.Domain.Models.Identity;
+using CarRentApp.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

@@ -9,7 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentApp.Repository", "Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentApp.Service", "CarRentApp.Service\CarRentApp.Service.csproj", "{61E4DFAD-A982-498A-A22C-07048FE0EB2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentApp.Web", "CarRentApp.Web\CarRentApp.Web.csproj", "{D19E3428-37E5-4926-B65D-81953C910998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentApp.Web", "CarRentApp.Web\CarRentApp.Web.csproj", "{D19E3428-37E5-4926-B65D-81953C910998}"
+	ProjectSection(ProjectDependencies) = postProject
+		{08886916-66C4-4B85-9FD5-47980BD94E5A} = {08886916-66C4-4B85-9FD5-47980BD94E5A}
+		{61E4DFAD-A982-498A-A22C-07048FE0EB2D} = {61E4DFAD-A982-498A-A22C-07048FE0EB2D}
+		{DD5EA485-D311-4D42-9B2C-18BFA66836D3} = {DD5EA485-D311-4D42-9B2C-18BFA66836D3}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

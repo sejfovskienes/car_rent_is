@@ -1,6 +1,6 @@
-using CarRentApp.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using CarRentApp.Domain.Models;
 
 namespace CarRentApp.Web.Controllers
 {

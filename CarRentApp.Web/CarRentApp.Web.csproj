@@ -15,4 +15,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CarRentApp.Domain\CarRentApp.Domain.csproj" />
+    <ProjectReference Include="..\CarRentApp.Repository\CarRentApp.Repository.csproj" />
+    <ProjectReference Include="..\CarRentApp.Service\CarRentApp.Service.csproj" />
+  </ItemGroup>
+
 </Project>

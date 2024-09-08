@@ -1,0 +1,13 @@
+D:\car_rent_is\CarRentApp.Domain\bin\Debug\net8.0\CarRentApp.Domain.deps.json
+D:\car_rent_is\CarRentApp.Domain\bin\Debug\net8.0\CarRentApp.Domain.dll
+D:\car_rent_is\CarRentApp.Domain\bin\Debug\net8.0\CarRentApp.Domain.pdb
+D:\car_rent_is\CarRentApp.Domain\obj\Debug\net8.0\CarRentApp.Domain.csproj.AssemblyReference.cache
+D:\car_rent_is\CarRentApp.Domain\obj\Debug\net8.0\CarRentApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\car_rent_is\CarRentApp.Domain\obj\Debug\net8.0\CarRentApp.Domain.AssemblyInfoInputs.cache
+D:\car_rent_is\CarRentApp.Domain\obj\Debug\net8.0\CarRentApp.Domain.AssemblyInfo.cs
+D:\car_rent_is\CarRentApp.Domain\obj\Debug\net8.0\CarRentApp.Domain.csproj.CoreCompileInputs.cache
+D:\car_rent_is\CarRentApp.Domain\obj\Debug\net8.0\CarRentApp.Domain.sourcelink.json
+D:\car_rent_is\CarRentApp.Domain\obj\Debug\net8.0\CarRentApp.Domain.dll
+D:\car_rent_is\CarRentApp.Domain\obj\Debug\net8.0\refint\CarRentApp.Domain.dll
+D:\car_rent_is\CarRentApp.Domain\obj\Debug\net8.0\CarRentApp.Domain.pdb
+D:\car_rent_is\CarRentApp.Domain\obj\Debug\net8.0\ref\CarRentApp.Domain.dll
