@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\car_rent_is\\CarRentApp.Web\\CarRentApp.Web.csproj": {}
+    "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Web\\CarRentApp.Web.csproj": {}
   },
   "projects": {
-    "D:\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj": {
+    "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj",
         "projectName": "CarRentApp.Domain",
-        "projectPath": "D:\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\car_rent_is\\CarRentApp.Domain\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,21 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj": {
+    "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj",
         "projectName": "CarRentApp.Repository",
-        "projectPath": "D:\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\car_rent_is\\CarRentApp.Repository\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,14 +89,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj": {
-                "projectPath": "D:\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj"
+              "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj"
               }
             }
           }
@@ -140,21 +142,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\car_rent_is\\CarRentApp.Service\\CarRentApp.Service.csproj": {
+    "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Service\\CarRentApp.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\car_rent_is\\CarRentApp.Service\\CarRentApp.Service.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Service\\CarRentApp.Service.csproj",
         "projectName": "CarRentApp.Service",
-        "projectPath": "D:\\car_rent_is\\CarRentApp.Service\\CarRentApp.Service.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\car_rent_is\\CarRentApp.Service\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Service\\CarRentApp.Service.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,17 +164,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj": {
-                "projectPath": "D:\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj"
+              "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj"
               },
-              "D:\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj": {
-                "projectPath": "D:\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj"
+              "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj"
               }
             }
           }
@@ -207,21 +210,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\car_rent_is\\CarRentApp.Web\\CarRentApp.Web.csproj": {
+    "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Web\\CarRentApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\car_rent_is\\CarRentApp.Web\\CarRentApp.Web.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Web\\CarRentApp.Web.csproj",
         "projectName": "CarRentApp.Web",
-        "projectPath": "D:\\car_rent_is\\CarRentApp.Web\\CarRentApp.Web.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\car_rent_is\\CarRentApp.Web\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Web\\CarRentApp.Web.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -229,20 +232,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj": {
-                "projectPath": "D:\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj"
+              "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\CarRentApp.Domain.csproj"
               },
-              "D:\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj": {
-                "projectPath": "D:\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj"
+              "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\CarRentApp.Repository.csproj"
               },
-              "D:\\car_rent_is\\CarRentApp.Service\\CarRentApp.Service.csproj": {
-                "projectPath": "D:\\car_rent_is\\CarRentApp.Service\\CarRentApp.Service.csproj"
+              "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Service\\CarRentApp.Service.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Service\\CarRentApp.Service.csproj"
               }
             }
           }
@@ -302,7 +306,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
