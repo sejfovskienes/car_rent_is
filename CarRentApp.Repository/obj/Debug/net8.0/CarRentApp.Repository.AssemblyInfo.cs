@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarRentApp.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1675aa87c237d090f96207be4db31811e1c226fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60df233544e6d1f8382f1ced972a01fbbe3febb5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarRentApp.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarRentApp.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
