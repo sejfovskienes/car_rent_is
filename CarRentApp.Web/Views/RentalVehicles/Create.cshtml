@@ -1,0 +1,53 @@
+﻿@model CarRentApp.Domain.Models.RentalVehicle
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>RentalVehicle</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="VehicleId" class="control-label"></label>
+                <select asp-for="VehicleId" class ="form-control" asp-items="ViewBag.VehicleId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinimumRentalTime" class="control-label"></label>
+                <input asp-for="MinimumRentalTime" class="form-control" />
+                <span asp-validation-for="MinimumRentalTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaximumRentalTime" class="control-label"></label>
+                <input asp-for="MaximumRentalTime" class="form-control" />
+                <span asp-validation-for="MaximumRentalTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DailyRentalRate" class="control-label"></label>
+                <input asp-for="DailyRentalRate" class="form-control" />
+                <span asp-validation-for="DailyRentalRate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="isAvailable" class="control-label"></label>
+                <input asp-for="isAvailable" class="form-control" />
+                <span asp-validation-for="isAvailable" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
