@@ -6,11 +6,14 @@
 *.sln.docstates
 
 # Ignore build results
-# Ignore all bin/ directories
-**/bin/
-
-# Ignore all obj/ directories
-**/obj/
+CarRentApp.Domain/obj/
+CarRentApp.Domain/bin/
+CarRentApp.Repository/obj/
+CarRentApp.Repository/bin/
+CarRentApp.Service/bin/
+CarRentApp.Service/obj/
+CarRentApp.Web/obj/
+CarRentApp.Web/bin/
 
 # Ignore other files
 *.log
