@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interface\" />
-    <Folder Include="Implementation\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CarRentApp.Domain\CarRentApp.Domain.csproj" />
     <ProjectReference Include="..\CarRentApp.Repository\CarRentApp.Repository.csproj" />
   </ItemGroup>
