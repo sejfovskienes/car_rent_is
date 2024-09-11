@@ -6,8 +6,11 @@
 *.sln.docstates
 
 # Ignore build results
-bin/
-obj/
+# Ignore all bin/ directories
+**/bin/
+
+# Ignore all obj/ directories
+**/obj/
 
 # Ignore other files
 *.log
