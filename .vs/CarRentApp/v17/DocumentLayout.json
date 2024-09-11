@@ -1,46 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\car_rent_is\\",
+  "WorkspaceRootPath": "D:\\car_rent_is\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\Migrations\\20240910204231_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CarRentApp.Repository\\Migrations\\20240910204231_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD5EA485-D311-4D42-9B2C-18BFA66836D3}|CarRentApp.Repository\\CarRentApp.Repository.csproj|d:\\car_rent_is\\carrentapp.repository\\migrations\\20240911091034_initial-cloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5EA485-D311-4D42-9B2C-18BFA66836D3}|CarRentApp.Repository\\CarRentApp.Repository.csproj|solutionrelative:carrentapp.repository\\migrations\\20240911091034_initial-cloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08886916-66C4-4B85-9FD5-47980BD94E5A}|CarRentApp.Domain\\CarRentApp.Domain.csproj|c:\\users\\user\\desktop\\car_rent_is\\carrentapp.domain\\models\\rentedvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08886916-66C4-4B85-9FD5-47980BD94E5A}|CarRentApp.Domain\\CarRentApp.Domain.csproj|solutionrelative:carrentapp.domain\\models\\rentedvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/rentCarDB/True/SqlTable/dbo.RentedVehicles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/rentCarDB/True/SqlTable/dbo.RentalVehicles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/rentCarDB/True/SqlTable/dbo.Vehicles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\Migrations\\20240910203938_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CarRentApp.Repository\\Migrations\\20240910203938_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08886916-66C4-4B85-9FD5-47980BD94E5A}|CarRentApp.Domain\\CarRentApp.Domain.csproj|c:\\users\\user\\desktop\\car_rent_is\\carrentapp.domain\\models\\rentalvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08886916-66C4-4B85-9FD5-47980BD94E5A}|CarRentApp.Domain\\CarRentApp.Domain.csproj|solutionrelative:carrentapp.domain\\models\\rentalvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08886916-66C4-4B85-9FD5-47980BD94E5A}|CarRentApp.Domain\\CarRentApp.Domain.csproj|c:\\users\\user\\desktop\\car_rent_is\\carrentapp.domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08886916-66C4-4B85-9FD5-47980BD94E5A}|CarRentApp.Domain\\CarRentApp.Domain.csproj|solutionrelative:carrentapp.domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08886916-66C4-4B85-9FD5-47980BD94E5A}|CarRentApp.Domain\\CarRentApp.Domain.csproj|c:\\users\\user\\desktop\\car_rent_is\\carrentapp.domain\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08886916-66C4-4B85-9FD5-47980BD94E5A}|CarRentApp.Domain\\CarRentApp.Domain.csproj|solutionrelative:carrentapp.domain\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08886916-66C4-4B85-9FD5-47980BD94E5A}|CarRentApp.Domain\\CarRentApp.Domain.csproj|c:\\users\\user\\desktop\\car_rent_is\\carrentapp.domain\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08886916-66C4-4B85-9FD5-47980BD94E5A}|CarRentApp.Domain\\CarRentApp.Domain.csproj|solutionrelative:carrentapp.domain\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19E3428-37E5-4926-B65D-81953C910998}|CarRentApp.Web\\CarRentApp.Web.csproj|c:\\users\\user\\desktop\\car_rent_is\\carrentapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D19E3428-37E5-4926-B65D-81953C910998}|CarRentApp.Web\\CarRentApp.Web.csproj|d:\\car_rent_is\\carrentapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D19E3428-37E5-4926-B65D-81953C910998}|CarRentApp.Web\\CarRentApp.Web.csproj|solutionrelative:carrentapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -51,140 +18,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240910204231_second.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\Migrations\\20240910204231_second.cs",
-              "RelativeDocumentMoniker": "CarRentApp.Repository\\Migrations\\20240910204231_second.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\Migrations\\20240910204231_second.cs",
-              "RelativeToolTip": "CarRentApp.Repository\\Migrations\\20240910204231_second.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "20240911091034_initial-cloud.cs",
+              "DocumentMoniker": "D:\\car_rent_is\\CarRentApp.Repository\\Migrations\\20240911091034_initial-cloud.cs",
+              "RelativeDocumentMoniker": "CarRentApp.Repository\\Migrations\\20240911091034_initial-cloud.cs",
+              "ToolTip": "D:\\car_rent_is\\CarRentApp.Repository\\Migrations\\20240911091034_initial-cloud.cs",
+              "RelativeToolTip": "CarRentApp.Repository\\Migrations\\20240911091034_initial-cloud.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T20:42:31.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.RentedVehicles [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/rentCarDB/True/SqlTable/dbo.RentedVehicles.sql",
-              "ToolTip": "dbo.RentedVehicles [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-10T20:41:26.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.RentalVehicles [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/rentCarDB/True/SqlTable/dbo.RentalVehicles.sql",
-              "ToolTip": "dbo.RentalVehicles [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-10T20:41:15.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.Vehicles [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/rentCarDB/True/SqlTable/dbo.Vehicles.sql",
-              "ToolTip": "dbo.Vehicles [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-10T20:40:42.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240910203938_init.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\Migrations\\20240910203938_init.cs",
-              "RelativeDocumentMoniker": "CarRentApp.Repository\\Migrations\\20240910203938_init.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Repository\\Migrations\\20240910203938_init.cs",
-              "RelativeToolTip": "CarRentApp.Repository\\Migrations\\20240910203938_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T20:39:38.807Z",
+              "WhenOpened": "2024-09-11T09:10:35.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RentedVehicle.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\Models\\RentedVehicle.cs",
-              "RelativeDocumentMoniker": "CarRentApp.Domain\\Models\\RentedVehicle.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\Models\\RentedVehicle.cs",
-              "RelativeToolTip": "CarRentApp.Domain\\Models\\RentedVehicle.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T20:35:58.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RentalVehicle.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\Models\\RentalVehicle.cs",
-              "RelativeDocumentMoniker": "CarRentApp.Domain\\Models\\RentalVehicle.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\Models\\RentalVehicle.cs",
-              "RelativeToolTip": "CarRentApp.Domain\\Models\\RentalVehicle.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T20:35:08.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\Models\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "CarRentApp.Domain\\Models\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\Models\\BaseEntity.cs",
-              "RelativeToolTip": "CarRentApp.Domain\\Models\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T20:34:20.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\Models\\Vehicle.cs",
-              "RelativeDocumentMoniker": "CarRentApp.Domain\\Models\\Vehicle.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\Models\\Vehicle.cs",
-              "RelativeToolTip": "CarRentApp.Domain\\Models\\Vehicle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T20:34:41.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\Identity\\AppUser.cs",
-              "RelativeDocumentMoniker": "CarRentApp.Domain\\Identity\\AppUser.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Domain\\Identity\\AppUser.cs",
-              "RelativeToolTip": "CarRentApp.Domain\\Identity\\AppUser.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBMAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T20:33:22.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Web\\appsettings.json",
+              "DocumentMoniker": "D:\\car_rent_is\\CarRentApp.Web\\appsettings.json",
               "RelativeDocumentMoniker": "CarRentApp.Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\car_rent_is\\CarRentApp.Web\\appsettings.json",
+              "ToolTip": "D:\\car_rent_is\\CarRentApp.Web\\appsettings.json",
               "RelativeToolTip": "CarRentApp.Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-10T20:31:03.396Z",
+              "WhenOpened": "2024-09-11T09:09:13.41Z",
               "EditorCaption": ""
             }
           ]

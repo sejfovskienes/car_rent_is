@@ -622,10 +622,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8"
         },
         "runtime": {
-          "CarRentApp.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CarRentApp.Domain.dll": {}
         }
       },
       "CarRentApp.Repository/1.0.0": {
@@ -635,10 +632,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "runtime": {
-          "CarRentApp.Repository.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CarRentApp.Repository.dll": {}
         }
       }
     }
