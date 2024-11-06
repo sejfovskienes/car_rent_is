@@ -7,36 +7,36 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CarRentApp.Domain.Models;
 using CarRentApp.Repository;
+using CarRentApp.Service.Interface;
 
 namespace CarRentApp.Web.Controllers
 {
     public class RentalVehiclesController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IRentalVehicleService _rentalVehicleService;
 
-        public RentalVehiclesController(ApplicationDbContext context)
+        public RentalVehiclesController(ApplicationDbContext context, IRentalVehicleService rentalVehicleService)
         {
             _context = context;
+            _rentalVehicleService = rentalVehicleService;
         }
 
         // GET: RentalVehicles
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            var applicationDbContext = _context.RentalVehicles.Include(r => r.Vehicle);
-            return View(await applicationDbContext.ToListAsync());
+            return View(_rentalVehicleService.GetAllRentalVehicles());
         }
 
         // GET: RentalVehicles/Details/5
-        public async Task<IActionResult> Details(Guid? id)
+        public IActionResult Details(Guid? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var rentalVehicle = await _context.RentalVehicles
-                .Include(r => r.Vehicle)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var rentalVehicle = _rentalVehicleService.GetRentalVehicle(id);
             if (rentalVehicle == null)
             {
                 return NotFound();
@@ -57,13 +57,12 @@ namespace CarRentApp.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("VehicleId,MinimumRentalTime,MaximumRentalTime,DailyRentalRate,isAvailable,Id")] RentalVehicle rentalVehicle)
+        public IActionResult Create([Bind("VehicleId,MinimumRentalTime,MaximumRentalTime,DailyRentalRate,isAvailable,Id")] RentalVehicle rentalVehicle)
         {
             if (ModelState.IsValid)
             {
-                rentalVehicle.Id = Guid.NewGuid();
-                _context.Add(rentalVehicle);
-                await _context.SaveChangesAsync();
+                // rentalVehicle.Id = Guid.NewGuid();
+                _rentalVehicleService.CreateRentalVehicle(rentalVehicle);
                 return RedirectToAction(nameof(Index));
             }
             ViewData["VehicleId"] = new SelectList(_context.Vehicles, "Id", "Id", rentalVehicle.VehicleId);
@@ -71,14 +70,14 @@ namespace CarRentApp.Web.Controllers
         }
 
         // GET: RentalVehicles/Edit/5
-        public async Task<IActionResult> Edit(Guid? id)
+        public IActionResult Edit(Guid? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var rentalVehicle = await _context.RentalVehicles.FindAsync(id);
+            var rentalVehicle = _rentalVehicleService.GetRentalVehicle(id);
             if (rentalVehicle == null)
             {
                 return NotFound();
@@ -92,7 +91,7 @@ namespace CarRentApp.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("VehicleId,MinimumRentalTime,MaximumRentalTime,DailyRentalRate,isAvailable,Id")] RentalVehicle rentalVehicle)
+        public IActionResult Edit(Guid id, [Bind("VehicleId,MinimumRentalTime,MaximumRentalTime,DailyRentalRate,isAvailable,Id")] RentalVehicle rentalVehicle)
         {
             if (id != rentalVehicle.Id)
             {
@@ -103,8 +102,7 @@ namespace CarRentApp.Web.Controllers
             {
                 try
                 {
-                    _context.Update(rentalVehicle);
-                    await _context.SaveChangesAsync();
+                    _rentalVehicleService.UpdateRentalVehicle(rentalVehicle);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -124,16 +122,15 @@ namespace CarRentApp.Web.Controllers
         }
 
         // GET: RentalVehicles/Delete/5
-        public async Task<IActionResult> Delete(Guid? id)
+        public IActionResult Delete(Guid? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var rentalVehicle = await _context.RentalVehicles
-                .Include(r => r.Vehicle)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var rentalVehicle = _rentalVehicleService.GetRentalVehicle(id);
+
             if (rentalVehicle == null)
             {
                 return NotFound();
@@ -145,15 +142,14 @@ namespace CarRentApp.Web.Controllers
         // POST: RentalVehicles/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(Guid id)
+        public IActionResult DeleteConfirmed(Guid id)
         {
-            var rentalVehicle = await _context.RentalVehicles.FindAsync(id);
+            var rentalVehicle = _rentalVehicleService.GetRentalVehicle(id);
             if (rentalVehicle != null)
             {
-                _context.RentalVehicles.Remove(rentalVehicle);
+                _rentalVehicleService.DeleteRentalVehicle(id);
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

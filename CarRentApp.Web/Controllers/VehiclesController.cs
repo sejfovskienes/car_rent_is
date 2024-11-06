@@ -7,34 +7,38 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CarRentApp.Domain.Models;
 using CarRentApp.Repository;
+using CarRentApp.Service.Interface;
 
 namespace CarRentApp.Web.Controllers
 {
     public class VehiclesController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IVehicleService _vehicleService;
 
-        public VehiclesController(ApplicationDbContext context)
+
+        public VehiclesController(ApplicationDbContext context, IVehicleService vehicleService)
         {
             _context = context;
+            _vehicleService = vehicleService;
         }
 
         // GET: Vehicles
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View(await _context.Vehicles.ToListAsync());
+            return View(_vehicleService.GetAllVehicles());
         }
 
         // GET: Vehicles/Details/5
-        public async Task<IActionResult> Details(Guid? id)
+        public IActionResult Details(Guid? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var vehicle = await _context.Vehicles
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var vehicle = _vehicleService.GetVehicle(id);
+
             if (vehicle == null)
             {
                 return NotFound();
@@ -54,31 +58,32 @@ namespace CarRentApp.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Brand,Model,ProductionYear,FuelType,VehicleType,Mileage,Color,ImageLinks,Id")] Vehicle vehicle)
+        public IActionResult Create([Bind("Brand,Model,ProductionYear,FuelType,VehicleType,Mileage,Color,ImageLinks,Id")] Vehicle vehicle)
         {
             if (ModelState.IsValid)
             {
-                vehicle.Id = Guid.NewGuid();
-                _context.Add(vehicle);
-                await _context.SaveChangesAsync();
+               // vehicle.Id = Guid.NewGuid();
+                _vehicleService.CreateVehicle(vehicle);
                 return RedirectToAction(nameof(Index));
             }
             return View(vehicle);
         }
 
         // GET: Vehicles/Edit/5
-        public async Task<IActionResult> Edit(Guid? id)
+        public IActionResult Edit(Guid? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var vehicle = await _context.Vehicles.FindAsync(id);
+            var vehicle = _vehicleService.GetVehicle(id);
+
             if (vehicle == null)
             {
                 return NotFound();
             }
+
             return View(vehicle);
         }
 
@@ -87,7 +92,7 @@ namespace CarRentApp.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("Brand,Model,ProductionYear,FuelType,VehicleType,Mileage,Color,ImageLinks,Id")] Vehicle vehicle)
+        public IActionResult Edit(Guid id, [Bind("Brand,Model,ProductionYear,FuelType,VehicleType,Mileage,Color,ImageLinks,Id")] Vehicle vehicle)
         {
             if (id != vehicle.Id)
             {
@@ -98,8 +103,7 @@ namespace CarRentApp.Web.Controllers
             {
                 try
                 {
-                    _context.Update(vehicle);
-                    await _context.SaveChangesAsync();
+                    _vehicleService.UpdateVehicle(vehicle);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -118,15 +122,15 @@ namespace CarRentApp.Web.Controllers
         }
 
         // GET: Vehicles/Delete/5
-        public async Task<IActionResult> Delete(Guid? id)
+        public IActionResult Delete(Guid? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var vehicle = await _context.Vehicles
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var vehicle = _vehicleService.GetVehicle(id);
+
             if (vehicle == null)
             {
                 return NotFound();
@@ -138,15 +142,14 @@ namespace CarRentApp.Web.Controllers
         // POST: Vehicles/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(Guid id)
+        public IActionResult DeleteConfirmed(Guid id)
         {
-            var vehicle = await _context.Vehicles.FindAsync(id);
+            var vehicle = _vehicleService.GetVehicle(id);
             if (vehicle != null)
             {
-                _context.Vehicles.Remove(vehicle);
+                _vehicleService.DeleteVehicle(id);
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

@@ -1,6 +1,10 @@
 //using CarRentApp.Domain.Models.Identity;
 using CarRentApp.Domain.Identity;
 using CarRentApp.Repository;
+using CarRentApp.Repository.Implementation;
+using CarRentApp.Repository.Interface;
+using CarRentApp.Service.Implementation;
+using CarRentApp.Service.Interface;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,6 +21,11 @@ builder.Services.AddDefaultIdentity<AppUser>(options => options.SignIn.RequireCo
 builder.Services.AddControllersWithViews();
 
 
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+builder.Services.AddTransient<IVehicleService, VehicleService>();
+builder.Services.AddTransient<IRentalVehicleService, RentalVehicleService>();
+builder.Services.AddTransient<IRentedVehicleService, RentedVehicleService>();
 
 var app = builder.Build();
 
