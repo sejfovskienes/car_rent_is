@@ -31,7 +31,7 @@ namespace CarRentApp.Service.Implementation
             return _repository.GetAll().ToList();
         }
 
-        public RentalVehicle GetRentalVehicle(Guid Id)
+        public RentalVehicle GetRentalVehicle(Guid? Id)
         {
             return _repository.Get(Id);
         }
