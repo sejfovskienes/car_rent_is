@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.9.0" />
+    <PackageReference Include="MimeKit" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CarRentApp.Domain\CarRentApp.Domain.csproj" />
     <ProjectReference Include="..\CarRentApp.Repository\CarRentApp.Repository.csproj" />
   </ItemGroup>

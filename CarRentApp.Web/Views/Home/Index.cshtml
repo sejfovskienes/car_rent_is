@@ -1,8 +1,27 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Test Email";
 }
 
 <div class="text-center" style="background-color: #0b6477;">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+    <!-- For testing purpouses only. -->
+    <h2>Test Email</h2>
+    <form method="post" asp-action="SendTestEmail">
+        <button type="submit" class="btn btn-primary">Send Test Email</button>
+    </form>
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["Message"]
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
 </div>
